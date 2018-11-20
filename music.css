@@ -1,0 +1,184 @@
+body{
+	background-color:#d2d5d6;
+	margin:0px;
+	padding:0px;
+	font-family:微软雅黑, sans-serif;
+	height:100%;
+
+}
+.wapper{
+		width:440px;
+		height:500px;
+		background-color:#eef1f2;
+		position:relative;
+		top:35px;
+		margin: 0 auto;
+		border-radius:10px;
+		box-shadow:0px 6px 7px #999;
+		overflow:hidden;
+
+}
+.background{
+			width:100%;
+			height:270px;
+			position:relative;
+}
+.music-lyric{
+	width:100%;
+	height:230px;
+	color:white;
+	background-color:rgba(100,100,100,0.5);
+	text-align:center;
+	padding:20px 0px;
+	overflow: hidden;
+
+}
+.lyric{
+	list-style-type:none;
+	padding-left:0px;
+}
+ul{
+	position: relative;
+	transition: all 1s;
+}
+.lyric li{
+	color:rgba(255,255,255,0.6);
+	font-size:13px;
+	font-weight: bold;
+	position: relative;
+	padding:5px 0px 2px 0px;
+	transition: all 1s;
+	transition: all 1s;
+}
+.lyric li.active{
+	font-size:14px;
+	color:#ffffff;
+}
+.content{
+	width:400px;
+	height:100px;
+	padding:20px 20px 10px 20px;
+}
+p{
+	margin:0px;
+}
+.musicName{
+	font-weight:bold;
+	font-size:26px;
+
+
+}
+.musician{
+	font-weight:bold;
+	font-size:18px;
+
+
+}
+.text_Space{
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	
+}
+.record{
+	font-size:14px;
+	margin-top:4px;
+}
+.text_color{
+	color:black;
+}
+.music-icon{
+	float:right;
+	position: relative;
+
+}
+.m-icon{
+	font-size:22px;
+	color:#cdd2d7;
+	margin:10px;
+}
+
+.switch{
+	display: inline-block;
+}
+.m-play{
+	background-color: black;
+	border-radius:19px;
+	font-size:20px;
+	width:38px;
+	height:38px;
+	display:inline-block;
+	text-align:center;
+	line-height: 38px;
+	margin-right:0px;
+}
+.btn1{
+	background-color: black;
+	border-radius:19px;
+	font-size:20px;
+	width:38px;
+	height:38px;
+	display:inline-block;
+	text-align:center;
+	line-height: 38px;
+	margin-right:0px;
+}
+
+.m-change{
+	background-color: black;
+	border-radius:14px;
+	font-size:16px;
+	width:28px;
+	height:28px;
+	display:inline-block;
+	text-align:center;
+	line-height: 28px;
+	margin-right:0px;
+}
+.m-next{
+	background-color: black;
+	border-radius:14px;
+	font-size:16px;
+	width:28px;
+	height:28px;
+	display:inline-block;
+	text-align:center;
+	line-height: 28px;
+	margin-right:0px;
+}
+.function{
+	float:right;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.basebar{
+	display: block;
+	width: 400px;
+	height:4px;
+	background-color: #cdd2d7;
+	border-radius: 2px;
+	margin:0px auto 25px auto;
+}
+.progressbar{
+	display:block;
+	width:400px;
+	height:4px;
+	background-color:#414141;
+	border-radius: 2px;
+}
+
+span.colored,a.colored{color:#cdd2d7;}
+span.stared{color:#feec98;}
+span.loved{color:#fe8698;}
+.lyriced{color: #414141}
+.recycleed{color:#414141}
+
+
+
+
+
+	
+	
+	
+	
+	
